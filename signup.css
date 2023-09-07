@@ -35,23 +35,19 @@ h1{
     outline: none;
 }
   {
-    box-sizing: border-box;
+    box-sizing:none;
 }
-  
-  /* Create four equal columns that floats next to each other */
-  .column {
+.column {
     float: left;
     width: 25%;
     padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
+    height: 300px; 
+}
+.row:after{
     content: "";
     display: table;
     clear: both;
-  }
+}
   
 
 
